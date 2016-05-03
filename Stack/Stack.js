@@ -2,6 +2,12 @@
  * @file js实现栈
  * @author Marx
  */
+
+/**
+ * 栈实现代码
+ * 
+ * @class
+ */
 function Stack() {
     
     /**
@@ -20,6 +26,8 @@ function Stack() {
     
     /**
      * 从栈中移除数据的方法pop()
+     * 
+     * @return 被移除的元素
      */
     this.pop = function(){
         return items.pop();
