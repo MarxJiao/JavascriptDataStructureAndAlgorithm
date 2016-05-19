@@ -17,7 +17,7 @@ function Queue() {
     
     /**
      * 向队列中添加元素
-     * @param element {any} 要添加的元素
+     * @param {any} element 要添加的元素
      */
     this.enqueue = function(element){
         items.push(element);
