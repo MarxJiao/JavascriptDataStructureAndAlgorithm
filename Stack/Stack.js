@@ -18,7 +18,7 @@ function Stack() {
     /**
      * 向栈中添加数据的方法push()
      * 
-     * @param element 要向栈中添加的数据
+     * @param {any} element 要向栈中添加的数据
      */
     this.push = function(element){
         items.push(element);
@@ -27,7 +27,7 @@ function Stack() {
     /**
      * 从栈中移除数据的方法pop()
      * 
-     * @return 被移除的元素
+     * @return {any} 被移除的元素
      */
     this.pop = function(){
         return items.pop();
@@ -36,7 +36,7 @@ function Stack() {
     /**
      * 返回栈顶的元素peek()
      * 
-     * @return items[items.length-1] 栈顶的元素
+     * @return {any} 栈顶的元素
      */
     this.peek = function(){
         return items[items.length-1];
@@ -45,7 +45,7 @@ function Stack() {
     /**
      * 返回是否为空栈
      * 
-     * @return {boolean} items.length == 0 是否为空栈
+     * @return {boolean} 是否为空栈
      */
     this.isEmpty = function(){
         return items.length == 0;
@@ -54,7 +54,7 @@ function Stack() {
     /**
      * 返回栈的大小
      * 
-     * @return {number} items.length 栈的大小
+     * @return {number} 栈的大小
      */
     this.size = function(){
         return items.length;
